@@ -1,0 +1,152 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#efeff1;
+    font-family:Arial, Helvetica,
+    ;
+}
+
+.hero{
+    background:#97136d;
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:900px;
+    margin:auto;
+    line-height:1.8;
+}
+
+.card{
+    background:white;
+    margin:40px auto;
+    padding:40px;
+    border-radius:20px;
+    width:90%;
+}
+
+h2{
+    color:#0a0d12;
+    margin-bottom:10px;
+}
+
+.line{
+    width:120px;
+    height:4px;
+    background:#97136d;
+    margin-bottom:30px;
+}
+
+.about-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:30px;
+    font-size:17px
+}
+
+ .about-container img{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    border:8px solid #97136d;
+    object-fit:cover;
+} 
+
+.about-text{
+    flex:1;
+    line-height:2;
+}
+.project{
+    background:#f5f5fa;
+    border-left:8px solid #09030a;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius:15px;
+}
+
+.project1{
+    background:#f5f5fa;
+    border-left:8px solid #09030a;
+    padding:25px;
+    margin-bottom:20px;
+    border-radius:15px;
+}
+
+
+.project h3,.project1 h3{
+    color:#97136d;
+    margin-bottom:15px;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.skills span{
+    background:#97136d;
+    color:white;
+    padding:15px 30px;
+    border-radius:40px;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+input{
+    padding:15px;
+    border:1px solid #ccc;
+    border-radius:10px;
+}
+
+button{
+    background:#97136d;
+    color:white;
+    border:none;
+    padding:15px;
+    border-radius:10px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+footer{
+    background:#97136d;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+
+@media(max-width:768px){
+    .about-container{
+        flex-direction:column;
+    }
+
+    .hero h1{
+        font-size:2.3rem;
+    }
+
+     .about-container img{
+        width:200px;
+        height:200px;
+    } 
+}
